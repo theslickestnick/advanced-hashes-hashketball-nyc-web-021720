@@ -191,6 +191,7 @@ def big_shoe_rebounds
   game_hash.each do |team, place|
     team.each do |attribute, data|
       binding.pry
+    end
       #collect all numbers, reduce to one number, use that number
   end
 end
