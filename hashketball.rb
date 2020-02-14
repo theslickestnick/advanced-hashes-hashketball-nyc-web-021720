@@ -188,10 +188,16 @@ end
 def big_shoe_rebounds
 #find player with biggest shoe size
 #return his rebounds
-  game_hash.each do |team, place|
-    place.each do |attribute, data|
-      binding.pry
-    end
-      #collect all numbers, reduce to one number, use that number
+  # game_hash.each do |team, place|
+  #   place.each do |attribute, data|
+  #     if attribute == :players
+  #
+  #     binding.pry
+  #   end
+  #     #collect all numbers, reduce to one number, use that number
+  # end
+  temp_array = game_hash[:away][:players] << game_hash[:home][:players]
+  all_players = temp_array.flatten
+  all_players.each do |x|
   end
 end
