@@ -189,7 +189,7 @@ def big_shoe_rebounds
 #find player with biggest shoe size
 #return his rebounds
   game_hash.each do |team, place|
-    team.each do |attribute, data|
+    place.each do |attribute, data|
       binding.pry
     end
       #collect all numbers, reduce to one number, use that number
