@@ -184,3 +184,13 @@ def player_stats(players_name)
   end
   new_hash
 end
+
+def big_shoe_rebounds
+#find player with biggest shoe size
+#return his rebounds
+  game_hash.each do |team, place|
+    team.each do |attribute, data|
+      binding.pry
+      #collect all numbers, reduce to one number, use that number
+  end
+end
