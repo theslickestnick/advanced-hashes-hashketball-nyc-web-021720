@@ -197,7 +197,7 @@ def big_shoe_rebounds
   # end
   temp_array = game_hash[:away][:players] << game_hash[:home][:players]
   all_players = temp_array.flatten
-    all_players.each do |x, y|
+    all_players.each do |x|
     binding.pry
 
     end
