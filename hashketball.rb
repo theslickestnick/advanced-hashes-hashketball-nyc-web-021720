@@ -192,12 +192,12 @@ def big_shoe_rebounds
   #   place.each do |attribute, data|
   #     if attribute == :players
   #
-  #     binding.pry
   #   end
   #     #collect all numbers, reduce to one number, use that number
   # end
   temp_array = game_hash[:away][:players] << game_hash[:home][:players]
   all_players = temp_array.flatten
   all_players.each do |x|
+    binding.pry
   end
 end
